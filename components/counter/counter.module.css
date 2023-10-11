@@ -1,0 +1,61 @@
+
+.body {
+    font-family: Arial;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: -420px;
+}
+
+  .wrapper { 
+    width: 390px; 
+    margin: 10px auto; 
+    position: relative;
+    background-color: none;
+    box-shadow: 15px 15px 15px gray;
+    border-radius: 10px;
+}
+
+  .counter { 
+    background-color: #003c84;
+    padding: 10px 0; 
+    border-radius: 10px;
+}
+  .count_title { 
+    font-size: 45px; 
+    font-weight: normal;   
+    margin-bottom: 0; 
+    text-align: center; 
+    color: #ffff;
+  }
+
+  .count_text { 
+    font-size: 30px; 
+    font-weight: normal;  
+    margin-top: 10px; 
+    margin-bottom: 0; 
+    text-align: center; 
+  }
+
+  .number{
+    font-size: xx-large;
+    color: #ffff;
+  }
+
+  .logo{
+    width: 17%;
+    font-size: 80px;
+    text-align: center; 
+    margin: auto;
+    color: #ffff;
+  }
+
+  @media only screen and (min-width: 1px) and (max-width: 1023px) {
+    .body {
+      visibility: hidden;
+      position: absolute;
+    }
+  }
